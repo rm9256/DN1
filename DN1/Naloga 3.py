@@ -1,0 +1,11 @@
+prva = int(input("Vnesi prvo stevilo: "))
+druga = int(input("Vnesi drugo stevilo: "))
+tretja = int(input("Vnesi tretje stevilo: "))
+print(prva)
+print(type(prva))
+print(druga)
+print(type(druga))
+print(prva)
+print(type(druga))
+if prva == druga and tretja <= prva:
+    print("prva in druga vrednost sta enaki ter tretja vrednost je manjsa ali enaka prvi")
